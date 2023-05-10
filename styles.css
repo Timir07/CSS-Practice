@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("obito.jpg");
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+
+}
+
+.logo {
+
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar {
+
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.navbar>a {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+
+.navbar>a:hover {
+    color: rgb(206, 59, 6);
+}
+
+#home {
+    color: rgb(206, 59, 6);
+}
+
+section {
+
+    height: 100vh;
+}
+
+section>h1 {
+    font-size: 62px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    color: rgb(206, 59, 6);
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    font-weight: 900;
+}
+
+section>h3 {
+
+    font-size: 42px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding: 12px 0;
+}
+
+
+section>p {
+    font-size: 24px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    word-spacing: 4px;
+    position: relative;
+    width: 400px;
+    top: 100px;
+    left: 100px;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(206, 59, 6);
+    width: 120px;
+    padding: 15px;
+    position: relative;
+    top: 150px;
+    left: 100px;
+    border-radius: 32px;
+    cursor: pointer;
+    margin-top: 12px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(206, 59, 6);
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+footer {
+    color: white;
+}
+
+@media all and (max-width:750px) {
+    .navbar {
+        display: block;
+    }
+
+}
